@@ -27,7 +27,7 @@ class ThirdClass(SecondClass):
 
     def mul(self, other):
         self.data *= other
-
+"""
 x = FirstClass()
 x.setdata(datetime.datetime.now())
 x.display()
@@ -38,7 +38,7 @@ c = SecondClass()
 c.setdata(24)
 c.display()
 print dir(c)
-
+"""
 a = ThirdClass("abc")
 a.display()
 print(a)
